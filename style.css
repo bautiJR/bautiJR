@@ -22,6 +22,9 @@ header h1{
     width: 400px;
     margin: 0 auto;
 }
+.titulo2{
+    background-color: aliceblue;
+}
 
 section article h2{
     background-color: rgb(255, 219, 16);
