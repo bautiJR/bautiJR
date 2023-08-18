@@ -26,14 +26,13 @@ header h1{
     background-color: aliceblue;
 }
 
-section article h2{
-    background-color: rgb(255, 219, 16);
-    margin: 3rem 0;
+section article {
+    margin : 3rem 0;
     padding: 0.5rem 0;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
 }
-section article:hover h2{
+section article:hover {
     box-shadow: 0.5rem 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
@@ -41,6 +40,10 @@ section article, section article p{
     margin: 0 auto;
     padding: 0.1rem;
     text-align: center;
+}
+.lolo{
+    background-color: rgb(255, 132, 16);
+    margin: 2px;
 }
 .Pasta {
     display: flex;
@@ -57,7 +60,7 @@ section article, section article p{
     transition: .5 ease;
 }
 .Pasta img:hover{
-    cursor: crosshair;
+    cursor: pointer;
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
