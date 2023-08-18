@@ -9,7 +9,11 @@ header{
     padding: 2rem 1rem;
     text-align: center;
 }
-
+.desplegable{ 
+    color: black; 
+    text-align: center;
+    width: auto;
+}
 header h1{
     text-align: center;
     font-size: 3rem;
@@ -19,23 +23,42 @@ header h1{
     margin: 0 auto;
 }
 
-section article{
-    background-color: azure;
+section article h2{
+    background-color: rgb(255, 219, 16);
     margin: 3rem 0;
     padding: 0.5rem 0;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
 }
-section article:hover{
+section article:hover h2{
     box-shadow: 0.5rem 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
-section article h2, section article p{
+section article, section article p{
     margin: 0 auto;
     padding: 0.1rem;
     text-align: center;
 }
+.Pasta {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    background-color: rgb(248, 245, 227);
 
+}
+.Pasta img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+.Pasta img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
 footer{
     background-color: rgb(104, 44, 4);
     color: aliceblue;
