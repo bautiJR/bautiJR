@@ -55,12 +55,12 @@ footer section{
     float: right;
 }
 footer p{
-    margin: 0;
+    margin: 5px;
 }
 footer a{
     color: white;
     text-decoration: none;
-    transition: color 1s ease;
+    transition: color 0.2s ease;
 }
 
 footer a:hover {
